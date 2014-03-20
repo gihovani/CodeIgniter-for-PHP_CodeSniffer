@@ -237,7 +237,7 @@ class CodeIgniter_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_Co
     protected function checkLength(PHP_CodeSniffer_File $phpcsFile, $stackPtr, $varName)
     {
         $minLength = 3;
-        $allowedShortName = array('ci', 'tmp', 'ret', 'db', 'id', 'url', 'sql');
+        $allowedShortName = array('str', 'ci', 'tmp', 'ret', 'db', 'id', 'url', 'sql');
 
         $isLengthRight = true;
         // cleans variable name

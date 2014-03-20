@@ -67,7 +67,6 @@ class PHP_CodeSniffer_Standards_CodeIgniter_CodeIgniterCodingStandard extends PH
 
             /* @todo
             'Squiz/Sniffs/Arrays/ArrayBracketSpacingSniff.php',
-            'Squiz/Sniffs/WhiteSpace/CastSpacingSniff.php',
             'Squiz_Sniffs_WhiteSpace_ControlStructureSpacingSniff.php',
             'Squiz_Sniffs_WhiteSpace_FunctionClosingBraceSpaceSniff.php',
             'Squiz_Sniffs_WhiteSpace_FunctionOpeningBraceSpaceSniff.php',
@@ -75,13 +74,9 @@ class PHP_CodeSniffer_Standards_CodeIgniter_CodeIgniterCodingStandard extends PH
             'Squiz_Sniffs_WhiteSpace_LanguageConstructSpacingSniff.php',
             'Squiz_Sniffs_WhiteSpace_MemberVarSpacingSniff.php',
             'Squiz_Sniffs_WhiteSpace_ObjectOperatorSpacingSniff.php',
-            'Squiz_Sniffs_WhiteSpace_OperatorSpacingSniff.php',
             'Squiz_Sniffs_WhiteSpace_PropertyLabelSpacingSniff.php',
-            'Squiz_Sniffs_WhiteSpace_ScopeClosingBraceSniff.php',
             'Squiz_Sniffs_WhiteSpace_ScopeIndentSniff.php',
             'Squiz_Sniffs_WhiteSpace_ScopeKeywordSpacingSniff.php',
-            'Squiz_Sniffs_WhiteSpace_SemicolonSpacingSniff.php',
-            'Squiz_Sniffs_WhiteSpace_SuperfluousWhitespaceSniff.php',
             */
 
             // @todo How to regonize strings dedicated to be output in the control panel ? Any text that is output in the control panel should use language variables in your module's lang file to allow localization.
