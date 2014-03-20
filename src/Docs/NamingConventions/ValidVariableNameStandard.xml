@@ -9,7 +9,13 @@
         <code title="Examples of valid variable names">
         <![CDATA[
 for ($j = 0; $j < 10; $j++)
-$str
+$ci
+$tmp
+$ret
+$db
+$id
+$url
+$sql
 $buffer
 $group_id
 $last_city

@@ -66,10 +66,10 @@ class CodeIgniter_Sniffs_Files_Utf8EncodingSniff implements PHP_CodeSniffer_Snif
             $error = 'File "' . $file_name . '" should be saved with Unicode (UTF-8) encoding.';
             $phpcsFile->addError($error, 0);
         }
-        if ( ! self::_checkUtf8W3c($file_content)) {
-            $error = 'File "' . $file_name . '" should be saved with Unicode (UTF-8) encoding, but it did not successfully pass the W3C test.';
-            $phpcsFile->addError($error, 0);
-        }
+        // if ( ! self::_checkUtf8W3c($file_content)) {
+        //     $error = 'File "' . $file_name . '" should be saved with Unicode (UTF-8) encoding, but it did not successfully pass the W3C test.';
+        //     $phpcsFile->addError($error, 0);
+        // }
         if ( ! self::_checkUtf8Rfc3629($file_content)) {
             $error = 'File "' . $file_name . '" should be saved with Unicode (UTF-8) encoding, but it did not meet RFC3629 requirements.';
             $phpcsFile->addError($error, 0);
