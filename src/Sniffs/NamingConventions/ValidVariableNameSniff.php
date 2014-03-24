@@ -420,7 +420,9 @@ class CodeIgniter_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_Co
                     if (is_array($parentPtrAndCode)) {
                         $parentCode = next($parentPtrAndCode);
                         $parentPtr = key($parentPtrAndCode);
-                        $openBracketPtr = $tokens[$parentPtr]['scope_opener'];
+                        if (isset($tokens[$parentPtr])) {
+                            $openBracketPtr = $tokens[$parentPtr]['scope_opener'];
+                        }
                     }
                 }
             } else {
