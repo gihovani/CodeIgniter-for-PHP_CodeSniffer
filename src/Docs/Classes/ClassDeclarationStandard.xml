@@ -1,0 +1,22 @@
+<documentation title="Class Declarations">
+    <standard>
+    <![CDATA[
+    The opening brace of a class must be on the same line the definition by itself.
+    ]]>
+    </standard>
+    <code_comparison>
+        <code title="Valid: Opening brace on the same line.">
+        <![CDATA[
+class Foo <em>{</em>
+}
+        ]]>
+        </code>
+        <code title="Invalid: Opening brace on the new line as declaration.">
+        <![CDATA[
+class Foo 
+<em>{</em>
+}
+        ]]>
+        </code>
+    </code_comparison>
+</documentation>

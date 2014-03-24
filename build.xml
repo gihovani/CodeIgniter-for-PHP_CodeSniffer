@@ -4,7 +4,7 @@
   <property name="src.dir" value="src" />
   <property name="codingStandard" value="CodeIgniter" />
   <!-- @todo also thinking about something like <property environment="env"/> and then env.PHPCS_HOME -->
-  <property name="phpcs.dir" value="/usr/share/php/PHP/CodeSniffer/" />
+  <property name="phpcs.dir" value="/usr/local/share/pear/PHP/CodeSniffer/" />
   <!-- @todo find a way to allow users to forgot slash at the end of variable phpcs.dir -->
   <property name="dst.dir" value="${phpcs.dir}Standards/${codingStandard}/" />
 
