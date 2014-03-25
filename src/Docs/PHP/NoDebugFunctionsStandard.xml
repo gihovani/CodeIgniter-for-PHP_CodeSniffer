@@ -1,0 +1,19 @@
+<documentation title="No Debug Functions">
+    <standard>
+    <![CDATA[
+    The forbidden functions var_dump, print_r, die, and exit should not be used.
+    ]]>
+    </standard>
+    <code_comparison>
+        <code title="Valid: echo is used in place of print.">
+        <![CDATA[
+<em>echo</em> 'Hello';
+        ]]>
+        </code>
+        <code title="Invalid: print is used.">
+        <![CDATA[
+<em>print</em> 'Hello';
+        ]]>
+        </code>
+    </code_comparison>
+</documentation>
